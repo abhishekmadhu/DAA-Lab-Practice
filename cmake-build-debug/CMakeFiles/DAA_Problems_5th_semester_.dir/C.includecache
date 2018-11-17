@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/GitHub/DAA-Problems-5th-semester-/main.c
+D:/Documents/GitHub/DAA-Problems-5th-semester-/nQueen.c
 stdio.h
+-
+malloc.h
 -
 

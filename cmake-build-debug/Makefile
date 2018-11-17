@@ -149,6 +149,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/main.c.s
 .PHONY : main.c.s
 
+nQueen.obj: nQueen.c.obj
+
+.PHONY : nQueen.obj
+
+# target to build an object file
+nQueen.c.obj:
+	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/nQueen.c.obj
+.PHONY : nQueen.c.obj
+
+nQueen.i: nQueen.c.i
+
+.PHONY : nQueen.i
+
+# target to preprocess a source file
+nQueen.c.i:
+	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/nQueen.c.i
+.PHONY : nQueen.c.i
+
+nQueen.s: nQueen.c.s
+
+.PHONY : nQueen.s
+
+# target to generate assembly for a file
+nQueen.c.s:
+	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/nQueen.c.s
+.PHONY : nQueen.c.s
+
 rod-cutting-DP.obj: rod-cutting-DP.c.obj
 
 .PHONY : rod-cutting-DP.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... nQueen.obj
+	@echo ... nQueen.i
+	@echo ... nQueen.s
 	@echo ... rod-cutting-DP.obj
 	@echo ... rod-cutting-DP.i
 	@echo ... rod-cutting-DP.s

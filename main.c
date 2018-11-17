@@ -9,7 +9,12 @@ int main() {
         printf("\nrod successfully cut!");
     }
 
-    printf("\nPress Enter/Return key to exit!");
-    getchar();
+    if(nQueen()){
+        printf("\nQueens Successfully placed");
+    }
+
+    // Enable this to use the getchar() pause functionality
+    // printf("\nPress Enter/Return key to exit!");
+    // getchar();
     return 0;
 }

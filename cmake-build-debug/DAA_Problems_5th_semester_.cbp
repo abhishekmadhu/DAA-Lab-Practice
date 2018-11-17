@@ -79,6 +79,9 @@
 		<Unit filename="D:/Documents/GitHub/DAA-Problems-5th-semester-/main.c">
 			<Option target="DAA_Problems_5th_semester_"/>
 		</Unit>
+		<Unit filename="D:/Documents/GitHub/DAA-Problems-5th-semester-/nQueen.c">
+			<Option target="DAA_Problems_5th_semester_"/>
+		</Unit>
 		<Unit filename="D:/Documents/GitHub/DAA-Problems-5th-semester-/rod-cutting-DP.c">
 			<Option target="DAA_Problems_5th_semester_"/>
 		</Unit>
