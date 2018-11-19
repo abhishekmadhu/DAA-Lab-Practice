@@ -6,5 +6,4 @@ set(CMAKE_C_STANDARD 99)
 #add filenames separated by spaces
 add_executable(DAA_Problems_5th_semester_
         main.c
-        rod-cutting-DP.c
-        nQueen.c)
+        matrixChainMultiplication-easy.c)

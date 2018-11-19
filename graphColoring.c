@@ -1,8 +1,7 @@
+//
+// Created by abhis on 11/18/2018.
+//
 #include <stdio.h>
-/*
- * CMAKE merges all the executables all by itself!!!
- * */
-
 #define M 3 //number of colors
 #define N 5 //number of vertices
 
@@ -20,7 +19,6 @@ void nextColor(int k, int n){
     int i;
     do{
         color[k] = (color[k]+1) % (M+1);
-        printf("%d", color[k]);     //
         if(color[k] == 0)
             return;
         for (i = 0; i < n; ++i) {
@@ -33,7 +31,7 @@ void nextColor(int k, int n){
 }
 
 void mColor(int k, int n){
-    int i=0;
+    int i;
     do{
         nextColor(k,n);
         if(color[k] == 0) return;
@@ -50,28 +48,9 @@ void mColor(int k, int n){
 
 
 
-int main() {
-//    printf("Hello, World!\n");
-//
-////    if(rodCutting()){
-////        printf("\nrod successfully cut!");
-////    }
-////
-////    if(nQueen()){
-////        printf("\nQueens Successfully placed");
-////    }
-//
-//    if(graphColourInitiator()){
-//        printf("\nGraph Coloring Completed!!");
-//    }
-//
-//    // Enable this to use the getchar() pause functionality
-//    // printf("\nPress Enter/Return key to exit!");
-//    // getchar();
-
-
+int graphColourInitiator(){
     int n = 5;
     int i;
     mColor(0,5);
-    return 0;
+    return 1;
 }

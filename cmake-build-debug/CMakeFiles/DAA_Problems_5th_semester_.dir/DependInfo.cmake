@@ -5,8 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Documents/GitHub/DAA-Problems-5th-semester-/main.c" "D:/Documents/GitHub/DAA-Problems-5th-semester-/cmake-build-debug/CMakeFiles/DAA_Problems_5th_semester_.dir/main.c.obj"
-  "D:/Documents/GitHub/DAA-Problems-5th-semester-/nQueen.c" "D:/Documents/GitHub/DAA-Problems-5th-semester-/cmake-build-debug/CMakeFiles/DAA_Problems_5th_semester_.dir/nQueen.c.obj"
-  "D:/Documents/GitHub/DAA-Problems-5th-semester-/rod-cutting-DP.c" "D:/Documents/GitHub/DAA-Problems-5th-semester-/cmake-build-debug/CMakeFiles/DAA_Problems_5th_semester_.dir/rod-cutting-DP.c.obj"
+  "D:/Documents/GitHub/DAA-Problems-5th-semester-/matrixChainMultiplication-easy.c" "D:/Documents/GitHub/DAA-Problems-5th-semester-/cmake-build-debug/CMakeFiles/DAA_Problems_5th_semester_.dir/matrixChainMultiplication-easy.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

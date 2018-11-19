@@ -149,59 +149,32 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/main.c.s
 .PHONY : main.c.s
 
-nQueen.obj: nQueen.c.obj
+matrixChainMultiplication-easy.obj: matrixChainMultiplication-easy.c.obj
 
-.PHONY : nQueen.obj
-
-# target to build an object file
-nQueen.c.obj:
-	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/nQueen.c.obj
-.PHONY : nQueen.c.obj
-
-nQueen.i: nQueen.c.i
-
-.PHONY : nQueen.i
-
-# target to preprocess a source file
-nQueen.c.i:
-	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/nQueen.c.i
-.PHONY : nQueen.c.i
-
-nQueen.s: nQueen.c.s
-
-.PHONY : nQueen.s
-
-# target to generate assembly for a file
-nQueen.c.s:
-	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/nQueen.c.s
-.PHONY : nQueen.c.s
-
-rod-cutting-DP.obj: rod-cutting-DP.c.obj
-
-.PHONY : rod-cutting-DP.obj
+.PHONY : matrixChainMultiplication-easy.obj
 
 # target to build an object file
-rod-cutting-DP.c.obj:
-	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/rod-cutting-DP.c.obj
-.PHONY : rod-cutting-DP.c.obj
+matrixChainMultiplication-easy.c.obj:
+	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/matrixChainMultiplication-easy.c.obj
+.PHONY : matrixChainMultiplication-easy.c.obj
 
-rod-cutting-DP.i: rod-cutting-DP.c.i
+matrixChainMultiplication-easy.i: matrixChainMultiplication-easy.c.i
 
-.PHONY : rod-cutting-DP.i
+.PHONY : matrixChainMultiplication-easy.i
 
 # target to preprocess a source file
-rod-cutting-DP.c.i:
-	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/rod-cutting-DP.c.i
-.PHONY : rod-cutting-DP.c.i
+matrixChainMultiplication-easy.c.i:
+	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/matrixChainMultiplication-easy.c.i
+.PHONY : matrixChainMultiplication-easy.c.i
 
-rod-cutting-DP.s: rod-cutting-DP.c.s
+matrixChainMultiplication-easy.s: matrixChainMultiplication-easy.c.s
 
-.PHONY : rod-cutting-DP.s
+.PHONY : matrixChainMultiplication-easy.s
 
 # target to generate assembly for a file
-rod-cutting-DP.c.s:
-	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/rod-cutting-DP.c.s
-.PHONY : rod-cutting-DP.c.s
+matrixChainMultiplication-easy.c.s:
+	$(MAKE) -f CMakeFiles\DAA_Problems_5th_semester_.dir\build.make CMakeFiles/DAA_Problems_5th_semester_.dir/matrixChainMultiplication-easy.c.s
+.PHONY : matrixChainMultiplication-easy.c.s
 
 # Help Target
 help:
@@ -215,12 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... nQueen.obj
-	@echo ... nQueen.i
-	@echo ... nQueen.s
-	@echo ... rod-cutting-DP.obj
-	@echo ... rod-cutting-DP.i
-	@echo ... rod-cutting-DP.s
+	@echo ... matrixChainMultiplication-easy.obj
+	@echo ... matrixChainMultiplication-easy.i
+	@echo ... matrixChainMultiplication-easy.s
 .PHONY : help
 
 

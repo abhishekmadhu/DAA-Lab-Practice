@@ -3,7 +3,3 @@
 
 CMakeFiles/DAA_Problems_5th_semester_.dir/main.c.obj: ../main.c
 
-CMakeFiles/DAA_Problems_5th_semester_.dir/nQueen.c.obj: ../nQueen.c
-
-CMakeFiles/DAA_Problems_5th_semester_.dir/rod-cutting-DP.c.obj: ../rod-cutting-DP.c
-

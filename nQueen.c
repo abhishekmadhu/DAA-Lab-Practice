@@ -6,17 +6,17 @@
 #include <malloc.h>
 #include <limits.h>
 
-int n;
+int color;
 
-void initiate(int * column){
+int * initiate(int * column){
     int i;
-    for (i = 0; i < n; ++i) {
+    for (i = 0; i < color; ++i) {
         column[i] = INT_MAX;
     }
 }
 
 void print(int * column){
-    for (int i = 0; i < n; ++i ) {
+    for (int i = 0; i < color; ++i ) {
         printf("%4d", column[i]);
     }
 }
@@ -45,8 +45,8 @@ int checkPlacement(int * column, int i, int j){
 
 void placeQueens(int * column){
     int i, j, k;
-    for (i = 0; i < n; ++i) {
-        for (j = 0; j < n; ++j) {
+    for (i = 0; i < color; ++i) {
+        for (j = 0; j < color; ++j) {
             if(checkPlacement(column, i, j)){
                 column[i] = j;
             }
@@ -62,8 +62,8 @@ int nQueen(){
     int ret;
 
     printf("\nEnter the number of Queens:   ");
-    scanf("%d", &n);
-    column = (int*)malloc(n * sizeof(int));
+    scanf("%d", &color);
+    column = (int*)malloc(color * sizeof(int));
     column = initiate(column);
 
     print(column);      //
